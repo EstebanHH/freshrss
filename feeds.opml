@@ -7,7 +7,6 @@
   <body>
     <outline text="News" title="News">
       <outline type="rss" text="BBC News - World" title="BBC News - World" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world" />
-      <outline type="rss" text="CNN Top Stories" title="CNN Top Stories" xmlUrl="http://rss.cnn.com/rss/cnn_topstories.rss" htmlUrl="https://www.cnn.com" />
       <outline type="rss" text="DW News (All English)" title="DW News (All English)" xmlUrl="https://rss.dw.com/rdf/rss-en-all" htmlUrl="https://www.dw.com/en" />
       <outline type="rss" text="Sky News - Top Stories" title="Sky News - Top Stories" xmlUrl="https://feeds.skynews.com/feeds/rss/world.xml" htmlUrl="https://news.sky.com/world" />
       <outline type="rss" text="NPR - World" title="NPR - World" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world" />
