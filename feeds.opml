@@ -74,8 +74,8 @@
 
     <!-- Science and exploration news -->
     <outline text="Science &amp; Exploration" title="Science &amp; Exploration">
-      <outline type="rss" text="Smithsonian Magazine - Latest" title="Smithsonian Magazine - Latest" xmlUrl="https://www.smithsonianmag.com/rss/" htmlUrl="https://www.smithsonianmag.com/rss/" />
-      <outline type="rss" text="Discover Magazine - All Content" title="Discover Magazine - All Content" xmlUrl="https://www.discovermagazine.com/feeds/all" htmlUrl="https://www.discovermagazine.com/rss" />
+      <outline type="rss" text="Smithsonian Magazine - Latest" title="Smithsonian Magazine - Latest" xmlUrl="https://www.smithsonianmag.com/rss/latest_articles/" htmlUrl="https://www.smithsonianmag.com/" />
+      <outline type="rss" text="Discover Magazine - All Content" title="Discover Magazine - All Content" xmlUrl="https://www.discovermagazine.com/rss/all" htmlUrl="https://www.discovermagazine.com/" />
       <outline type="rss" text="New Scientist - All" title="New Scientist - All" xmlUrl="https://www.newscientist.com/feed/home" htmlUrl="https://www.newscientist.com/" />
       <outline type="rss" text="Science | AAAS - Latest" title="Science | AAAS - Latest" xmlUrl="https://www.science.org/rss/express.xml" htmlUrl="https://www.science.org/content/page/email-alerts-and-rss-feeds" />
       <outline type="rss" text="Nature - Current Issue" title="Nature - Current Issue" xmlUrl="http://feeds.nature.com/nature/rss/current" htmlUrl="https://www.nature.com/" />
