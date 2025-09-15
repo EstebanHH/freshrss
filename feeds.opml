@@ -3,36 +3,76 @@
   <head>
     <title>FreshRSS Starter Pack - Tech &amp; News</title>
     <dateCreated>2025-09-08T05:43:06Z</dateCreated>
+    <dateModified>2025-09-15T00:00:00Z</dateModified>
   </head>
   <body>
     <outline text="News" title="News">
-      <outline type="rss" text="BBC News - World" title="BBC News - World" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world" />
-      <outline type="rss" text="DW News (All English)" title="DW News (All English)" xmlUrl="https://rss.dw.com/rdf/rss-en-all" htmlUrl="https://www.dw.com/en" />
-      <outline type="rss" text="Sky News - Top Stories" title="Sky News - Top Stories" xmlUrl="https://feeds.skynews.com/feeds/rss/world.xml" htmlUrl="https://news.sky.com/world" />
-      <outline type="rss" text="NPR - World" title="NPR - World" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world" />
-      <outline type="rss" text="The Guardian - World" title="The Guardian - World" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world" />
-      <outline type="rss" text="The New York Times - Home Page" title="The New York Times - Home Page" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com" />
+      <!-- World news in English (your originals) -->
+      <outline text="World (English)" title="World (English)">
+        <outline type="rss" text="BBC News - World" title="BBC News - World" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world" />
+        <outline type="rss" text="DW News (All English)" title="DW News (All English)" xmlUrl="https://rss.dw.com/rdf/rss-en-all" htmlUrl="https://www.dw.com/en" />
+        <outline type="rss" text="Sky News - Top Stories" title="Sky News - Top Stories" xmlUrl="https://feeds.skynews.com/feeds/rss/world.xml" htmlUrl="https://news.sky.com/world" />
+        <outline type="rss" text="NPR - World" title="NPR - World" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world" />
+        <outline type="rss" text="The Guardian - World" title="The Guardian - World" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world" />
+        <outline type="rss" text="The New York Times - Home Page" title="The New York Times - Home Page" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com" />
+      </outline>
+
+      <!-- International Spanish-language outlets -->
+      <outline text="Spanish News (International)" title="Spanish News (International)">
+        <outline type="rss" text="BBC Mundo - Noticias" title="BBC Mundo" xmlUrl="https://feeds.bbci.co.uk/mundo/rss.xml" htmlUrl="https://www.bbc.com/mundo" />
+        <outline type="rss" text="DW Español - Todas las noticias" title="DW Español" xmlUrl="https://rss.dw.com/rdf/rss-es-all" htmlUrl="https://www.dw.com/es" />
+        <outline type="rss" text="France 24 - Español" title="France 24 (ES)" xmlUrl="https://www.france24.com/es/rss" htmlUrl="https://www.france24.com/es/" />
+        <outline type="rss" text="Agencia EFE - Portada" title="Agencia EFE" xmlUrl="https://www.efe.com/efe/espana/portada/rss/10011" htmlUrl="https://www.efe.com" />
+        <outline type="rss" text="El País - Portada" title="El País" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" htmlUrl="https://elpais.com" />
+        <outline type="rss" text="El Mundo - España" title="El Mundo" xmlUrl="https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml" htmlUrl="https://www.elmundo.es" />
+        <outline type="rss" text="La Vanguardia - Últimas Noticias" title="La Vanguardia" xmlUrl="https://www.lavanguardia.com/mvc/feed/rss/home" htmlUrl="https://www.lavanguardia.com" />
+        <outline type="rss" text="ABC - Última Hora" title="ABC" xmlUrl="https://www.abc.es/rss/feeds/abcPortada.xml" htmlUrl="https://www.abc.es" />
+      </outline>
+
+      <!-- Spanish-language outlets in Latin America -->
+      <outline text="Latin America (Spanish)" title="Latin America (Spanish)">
+        <outline type="rss" text="El Universal (México) - Nación" title="El Universal (MX)" xmlUrl="https://www.eluniversal.com.mx/rss/nacion.xml" htmlUrl="https://www.eluniversal.com.mx" />
+        <outline type="rss" text="Clarín (Argentina) - Último Momento" title="Clarín (AR)" xmlUrl="https://www.clarin.com/rss/lo-ultimo/" htmlUrl="https://www.clarin.com" />
+        <outline type="rss" text="La Nación (Argentina) - Últimas Noticias" title="La Nación (AR)" xmlUrl="https://www.lanacion.com.ar/arcom/templates/rssHome" htmlUrl="https://www.lanacion.com.ar" />
+      </outline>
+
+      <!-- Colombian outlets -->
+      <outline text="Colombia (Spanish)" title="Colombia (Spanish)">
+        <outline type="rss" text="El Tiempo - Noticias" title="El Tiempo" xmlUrl="https://www.eltiempo.com/rss.xml" htmlUrl="https://www.eltiempo.com" />
+        <outline type="rss" text="El Espectador - Noticias" title="El Espectador" xmlUrl="https://www.elespectador.com/rss/portada/" htmlUrl="https://www.elespectador.com" />
+        <outline type="rss" text="Semana - Últimas Noticias" title="Semana" xmlUrl="https://www.semana.com/rss/portada" htmlUrl="https://www.semana.com" />
+      </outline>
     </outline>
-    <outline text="Tech (English)" title="Tech (English)">
-      <outline type="rss" text="Ars Technica - All" title="Ars Technica - All" xmlUrl="https://arstechnica.com/feed/" htmlUrl="https://arstechnica.com/" />
-      <outline type="rss" text="WIRED - Top Stories" title="WIRED - Top Stories" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com" />
-      <outline type="rss" text="The Verge - All Stories" title="The Verge - All Stories" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com" />
-      <outline type="rss" text="TechCrunch - All" title="TechCrunch - All" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com" />
-      <outline type="rss" text="The Register - Headlines (Atom)" title="The Register - Headlines (Atom)" xmlUrl="https://www.theregister.com/headlines.atom" htmlUrl="https://www.theregister.com" />
-      <outline type="rss" text="Engadget - All" title="Engadget - All" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com" />
+
+    <!-- Technology news -->
+    <outline text="Tech" title="Tech">
+
+      <!-- English-language tech outlets -->
+      <outline text="Tech (English)" title="Tech (English)">
+        <outline type="rss" text="Ars Technica - All" title="Ars Technica - All" xmlUrl="https://arstechnica.com/feed/" htmlUrl="https://arstechnica.com/" />
+        <outline type="rss" text="WIRED - Top Stories" title="WIRED - Top Stories" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com" />
+        <outline type="rss" text="The Verge - All Stories" title="The Verge - All Stories" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com" />
+        <outline type="rss" text="TechCrunch - All" title="TechCrunch - All" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com" />
+        <outline type="rss" text="The Register - Headlines (Atom)" title="The Register - Headlines (Atom)" xmlUrl="https://www.theregister.com/headlines.atom" htmlUrl="https://www.theregister.com" />
+        <outline type="rss" text="Engadget - All" title="Engadget - All" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com" />
+      </outline>
+
+      <!-- Spanish-language tech outlets -->
+      <outline text="Tech (Spanish)" title="Tech (Spanish)">
+        <outline type="rss" text="Xataka" title="Xataka" xmlUrl="https://feeds.weblogssl.com/xataka2" htmlUrl="https://www.xataka.com" />
+        <outline type="rss" text="Genbeta" title="Genbeta" xmlUrl="https://feeds.weblogssl.com/genbeta" htmlUrl="https://www.genbeta.com" />
+        <outline type="rss" text="Hipertextual" title="Hipertextual" xmlUrl="https://hipertextual.com/feed" htmlUrl="https://hipertextual.com" />
+        <outline type="rss" text="MuyComputer" title="MuyComputer" xmlUrl="https://www.muycomputer.com/feed/" htmlUrl="https://www.muycomputer.com" />
+        <outline type="rss" text="MuyComputerPRO" title="MuyComputerPRO" xmlUrl="https://www.muycomputerpro.com/feed/" htmlUrl="https://www.muycomputerpro.com" />
+        <outline type="rss" text="MuyPymes" title="MuyPymes" xmlUrl="https://www.muypymes.com/feed/" htmlUrl="https://www.muypymes.com" />
+        <outline type="rss" text="MuyCanal" title="MuyCanal" xmlUrl="https://www.muycanal.com/feed/" htmlUrl="https://www.muycanal.com" />
+        <outline type="rss" text="MuyLinux" title="MuyLinux" xmlUrl="https://www.muylinux.com/feed/" htmlUrl="https://www.muylinux.com" />
+        <outline type="rss" text="MuySeguridad" title="MuySeguridad" xmlUrl="https://muyseguridad.net/feed" htmlUrl="https://muyseguridad.net" />
+        <outline type="rss" text="Microsiervos" title="Microsiervos" xmlUrl="https://www.microsiervos.com/index.xml" htmlUrl="https://www.microsiervos.com" />
+      </outline>
     </outline>
-    <outline text="Tech (Spanish)" title="Tech (Spanish)">
-      <outline type="rss" text="Xataka" title="Xataka" xmlUrl="https://feeds.weblogssl.com/xataka2" htmlUrl="https://www.xataka.com" />
-      <outline type="rss" text="Genbeta" title="Genbeta" xmlUrl="https://feeds.weblogssl.com/genbeta" htmlUrl="https://www.genbeta.com" />
-      <outline type="rss" text="Hipertextual" title="Hipertextual" xmlUrl="https://hipertextual.com/feed" htmlUrl="https://hipertextual.com" />
-      <outline type="rss" text="MuyComputer" title="MuyComputer" xmlUrl="https://www.muycomputer.com/feed/" htmlUrl="https://www.muycomputer.com" />
-      <outline type="rss" text="MuyComputerPRO" title="MuyComputerPRO" xmlUrl="https://www.muycomputerpro.com/feed/" htmlUrl="https://www.muycomputerpro.com" />
-      <outline type="rss" text="MuyPymes" title="MuyPymes" xmlUrl="https://www.muypymes.com/feed/" htmlUrl="https://www.muypymes.com" />
-      <outline type="rss" text="MuyCanal" title="MuyCanal" xmlUrl="https://www.muycanal.com/feed/" htmlUrl="https://www.muycanal.com" />
-      <outline type="rss" text="MuyLinux" title="MuyLinux" xmlUrl="https://www.muylinux.com/feed/" htmlUrl="https://www.muylinux.com" />
-      <outline type="rss" text="MuySeguridad" title="MuySeguridad" xmlUrl="https://muyseguridad.net/feed" htmlUrl="https://muyseguridad.net" />
-      <outline type="rss" text="Microsiervos" title="Microsiervos" xmlUrl="https://www.microsiervos.com/index.xml" htmlUrl="https://www.microsiervos.com" />
-    </outline>
+
+    <!-- Science and exploration news -->
     <outline text="Science &amp; Exploration" title="Science &amp; Exploration">
       <outline type="rss" text="Smithsonian Magazine - Latest" title="Smithsonian Magazine - Latest" xmlUrl="https://www.smithsonianmag.com/rss/" htmlUrl="https://www.smithsonianmag.com/rss/" />
       <outline type="rss" text="Discover Magazine - All Content" title="Discover Magazine - All Content" xmlUrl="https://www.discovermagazine.com/feeds/all" htmlUrl="https://www.discovermagazine.com/rss" />
@@ -43,6 +83,8 @@
       <outline type="rss" text="JPL - News" title="JPL - News" xmlUrl="https://www.jpl.nasa.gov/feeds/news" htmlUrl="https://www.jpl.nasa.gov/rss/" />
       <outline type="rss" text="ScienceDaily - Top News" title="ScienceDaily - Top News" xmlUrl="https://www.sciencedaily.com/rss/top/science.xml" htmlUrl="https://www.sciencedaily.com/newsfeeds.htm" />
     </outline>
+
+    <!-- Security news -->
     <outline text="Security" title="Security">
       <outline type="rss" text="BleepingComputer - News" title="BleepingComputer - News" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/rss-feeds/" />
     </outline>
